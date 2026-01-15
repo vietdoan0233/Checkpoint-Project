@@ -1,8 +1,9 @@
 #Player's hp depends on class
 #Turn based
-#ALSO PLEASE CHOOSE WITHIN THE GIVEN OPTIONS OTHERWISE THE GAME WILL CRASH
+#ALSO PLEASE CHOOSE WITHIN THE GIVEN OPTIONS OTHERWISE THE GAME MAY CRASH (i tried to added some failsafes but i mightved missed some god knows just dont be stupid please omg)
 #As of 13/01, my course has only covered variables and loops thus far. Therefore, only one floor will be completed.
 #14/01: I wanna give the wyvern a stun skill. I gave claude my code and asked it to clean everything up and i lowk kinda lost interest bc it doesnt look like my work anymore.
+#15/01: Fixed balance, added stun skill. I've just learnt about lists and functions so maybe that'll be applied to floor 3 (if i do procceed with its creation that is)
 
 
 
@@ -17,7 +18,7 @@
 
 # Improved defend mechanics with strategic options.
 
-# Correct restart functionality and turn-based tracking.
+# Correct restart functionality and turnbased tracking.
 # https://docs.google.com/document/d/11VD5qGOb0LWsq8ArprH46ClcwIeqbwxwbJk7Fc62TWU/edit?usp=sharing
 
 #Patch 2.0
@@ -36,7 +37,7 @@ regressor_level = 0
 while True:
     # Greeting and username
     print("\n\nBrave hero, welcome to the abyss.")
-    print("Before you an adversary that will challenge your courage, skill, and resolve.") 
+    print("Before you lie adversaries that will challenge your courage, skill, and resolve.") 
     print("Step forth, hero, and carve your legend into the darkness.")
     print("May fortune favour your courage, and may your spirit remain unbroken.")
 
